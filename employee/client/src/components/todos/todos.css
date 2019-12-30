@@ -1,0 +1,80 @@
+.todos-container{
+    display:flex;
+}
+.todos-headers{
+    flex:33%;
+    margin:10px;
+    color:white;
+    background-color: rgba(70, 4, 14, 0.8);;
+    text-align:center;
+    padding:10px;
+    cursor:pointer;
+}
+.todo-form-container{
+    background-color: rgba(70, 4, 14, 0.8);;
+    margin:10px;
+}
+.remove-form-container{
+    display:none;
+}
+.todos-list-container{
+ 
+    margin:10px;
+
+}
+.todos-list{
+    border-bottom: 1px solid white;
+    margin-bottom:10px;
+    background-color: rgba(70, 4, 14, 0.8);
+}
+.todo-data{
+    color:white;
+    padding:10px;
+}
+.search-container{
+    margin-top:10px;
+color:white;
+background-color: transparent !important;
+
+}
+.error-todo{
+    margin:10px;
+    padding:10px;
+    color:white;
+    background-color: rgba(70, 4, 14, 0.8);;
+}
+.search{
+    outline:none;
+    border:none;
+    padding:10px;
+    margin:15px;
+    background-color: rgba(70, 4, 14, 0.8) !important;
+}
+.btn{
+    margin:10px;
+    padding:10px;
+    color:white;
+    text-align: center;
+    font-size: 14px;
+    border:none;
+    cursor: pointer;
+}
+.btn:disabled{
+    background-color: grey;
+}
+.btn-done{
+background-color: blue;
+
+}
+.btn-undone{
+    background-color: red;
+    }
+.btn-edit{
+    background-color: green;
+}
+.btn-delete{
+    background-color: red;
+}
+.work-btn{
+    
+}

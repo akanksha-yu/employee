@@ -1,0 +1,22 @@
+.header-container{
+    height:60px;
+    margin:0px 10px;
+    background-color: rgba(70, 4, 14, 0.8);
+    display:flex;
+}
+.logo{
+    color:white;
+    font-size:24px;
+    padding:10px;
+    cursor:pointer;
+    flex:80%;
+}
+.header-items{
+flex:20%;
+padding-top:18px;
+}
+.logout{
+    color:white;
+    padding:15px;
+    cursor:pointer;
+}

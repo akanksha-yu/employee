@@ -1,0 +1,45 @@
+.field-container{
+    color:white;
+}
+.login-container{
+    width:30%;
+    margin:10px;
+    background-color: black;
+   
+}
+label{
+    margin:10px;
+}
+.input-field{
+    width:50%;
+    margin:15px;
+    outline:none;
+    border:none;
+    background: transparent;
+    border-bottom: 2px solid white;
+    caret-color: white;
+    color:white;
+}
+.input-field:hover{
+    margin:15px;
+    outline:none;
+    border:none;
+    background: transparent;
+    border-bottom: 2px solid pink;
+}
+.btn-login{
+    text-align:center;
+    color:white;
+    font-size:16px;
+    width:95%;
+    margin:10px;
+    background-color: blue;
+    padding:10px;
+    border:none;
+    cursor:pointer;
+    
+}
+.user-not-found{
+    color:white;
+    margin:10px;
+}

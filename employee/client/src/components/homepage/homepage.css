@@ -1,0 +1,47 @@
+.homepage-container{
+   
+    display:flex;
+}
+.headers{
+    color:white;
+    text-align:center;
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor:pointer;
+}
+
+
+
+.animate-form{
+animation-name:loginAnimate;
+animation-duration: 1s;
+animation-fill-mode:forwards;
+}
+.deanimate-form{
+    animation-name:loginDeanimate;
+animation-duration: 2s;
+animation-fill-mode:forwards;
+}
+@keyframes loginAnimate{
+    0%{
+     visibility: hidden;
+      transform: translateY(-100px);
+    }
+    100%{
+      visibility: visible;
+        transform: translateY(0px);
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
+@keyframes loginDeanimate{
+    0%{
+      visibility: visible;
+      
+      opacity:1;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    100%{
+        visibility: hidden;
+        opacity: 0;
+      
+    }
+}

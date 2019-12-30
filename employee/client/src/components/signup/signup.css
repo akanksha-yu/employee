@@ -1,0 +1,17 @@
+.error-validation{
+    color:red;
+    font-size:10px;
+    margin-left:10px;
+}
+.signup-container{
+    width:30%;
+    margin:10px;
+    background-color: black;
+   
+}
+.user-exists-tooltip{
+   
+    background-color: rgb(2, 1, 1);
+    color:red;
+    font-size:14px;
+}
